@@ -1,0 +1,25 @@
+#rect-region{
+	width: 50vw;
+	height: 100vh;
+	margin: 0 auto; 
+	background:rgba(125,125,12, 0.7);
+	position:relative;
+}
+.rect-section{
+	border: 1px dashed blue;
+	box-sizing:border-box;
+	position: absolute;
+	background: rgba(50, 50, 255, .6);
+}
+.rect-section__title{
+	background: rgba(30, 30, 180, .9);
+	color: #fff;
+	line-height: 1.5em;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.rect-section__btn-close{
+	float: right;
+	cursor: pointer;
+}
